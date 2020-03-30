@@ -1,0 +1,1 @@
+document.querySelectorAll(".toggle-hidden").forEach(e=>e.addEventListener("click",()=>{let d=document.querySelector(e.dataset.target).classList;d.contains("hidden")?d.remove("hidden"):d.add("hidden")}));
